@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>[RESTAURANT NAME] - Menu</title>
+
+    <link rel="stylesheet" href="stlye.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                [RESTAURANT NAME]
+            </a>
+
+            <button class="menu-button" id="menuButton">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="menu.html" class="active">Menu</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Menu Header -->
+    <main>
+
+        <section class="page-header">
+
+            <div>
+                <p class="small-title">EXPLORE OUR FOOD</p>
+                <h1>Our Menu</h1>
+                <p>
+                    Fresh, delicious meals prepared just for you.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- Category Buttons -->
+        <section class="section">
+
+            <div class="category-buttons">
+
+                <button class="category-button active-category"
+                    data-category="all">
+                    All
+                </button>
+
+                <button class="category-button"
+                    data-category="main">
+                    Main Meals
+                </button>
+
+                <button class="category-button"
+                    data-category="rice">
+                    Rice Dishes
+                </button>
+
+                <button class="category-button"
+                    data-category="chicken">
+                    Chicken
+                </button>
+
+                <button class="category-button"
+                    data-category="burger">
+                    Burgers
+                </button>
+
+                <button class="category-button"
+                    data-category="drinks">
+                    Drinks
+                </button>
+
+                <button class="category-button"
+                    data-category="dessert">
+                    Desserts
+                </button>
+
+            </div>
+
+
+            <!-- Food Cards -->
+            <div class="menu-grid">
+
+
+                <!-- Jollof -->
+                <div class="menu-card" data-category="rice">
+
+                    <img src="images/jollof.jpg" alt="Jollof Rice">
+
+                    <div class="menu-info">
+
+                        <h3>Jollof Rice</h3>
+
+                        <p>
+                            Ghana-style jollof rice served with
+                            vegetables and a side of chicken.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <strong>GH₵45</strong>
+
+                            <a href="contact.html" class="small-btn">
+                                Order Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Fried Rice -->
+                <div class="menu-card" data-category="rice">
+
+                    <img src="images/fried-rice.jpg" alt="Fried Rice">
+
+                    <div class="menu-info">
+
+                        <h3>Fried Rice</h3>
+
+                        <p>
+                            Fresh fried rice with vegetables and
+                            your choice of chicken.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <strong>GH₵45</strong>
+
+                            <a href="contact.html" class="small-btn">
+                                Order Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Grilled Chicken -->
+                <div class="menu-card" data-category="chicken">
+
+                    <img src="images/chicken.jpg" alt="Grilled Chicken">
+
+                    <div class="menu-info">
+
+                        <h3>Grilled Chicken</h3>
+
+                        <p>
+                            Tender chicken grilled with our
+                            special seasoning.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <strong>GH₵50</strong>
+
+                            <a href="contact.html" class="small-btn">
+                                Order Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Chicken Wings -->
+                <div class="menu-card" data-category="chicken">
+
+                    <img src="images/wings.jpg" alt="Chicken Wings">
+
+                    <div class="menu-info">
+
+                        <h3>Chicken Wings</h3>
+
+                        <p>
+                            Crispy chicken wings served with
+                            our special dipping sauce.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <strong>GH₵40</strong>
+
+                            <a href="contact.html" class="small-btn">
+                                Order Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Burger -->
+                <div class="menu-card" data-category="burger">
+
+                    <img src="images/burger.jpg" alt="Beef Burger">
+
+                    <div class="menu-info">
+
+                        <h3>Classic Beef Burger</h3>
+
+                        <p>
+                            Juicy beef burger with fresh vegetables
+                            and special sauce.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <strong>GH₵40</strong>
+
+                            <a href="contact.html" class="small-btn">
+                                Order Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Pasta -->
+                <div class="menu-card" data-category="main">
+
+                    <img src="images/pasta.jpg" alt="Creamy Pasta">
+
+                    <div class="menu-info">
+
+                        <h3>Creamy Pasta</h3>
+
+                        <p>
+                            Creamy pasta prepared with vegetables
+                            and our special sauce.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <strong>GH₵48</strong>
+
+                            <a href="contact.html" class="small-btn">
+                                Order Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Soft Drink -->
+                <div class="menu-card" data-category="drinks">
+
+                    <img src="images/drink.jpg" alt="Soft Drink">
+
+                    <div class="menu-info">
+
+                        <h3>Soft Drink</h3>
+
+                        <p>
+                            A chilled refreshing soft drink.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <strong>GH₵10</strong>
+
+                            <a href="contact.html" class="small-btn">
+                                Order Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Cake -->
+                <div class="menu-card" data-category="dessert">
+
+                    <img src="images/cake.jpg" alt="Chocolate Cake">
+
+                    <div class="menu-info">
+
+                        <h3>Chocolate Cake</h3>
+
+                        <p>
+                            Soft and delicious chocolate cake
+                            served as a sweet dessert.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <strong>GH₵25</strong>
+
+                            <a href="contact.html" class="small-btn">
+                                Order Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+                <h3>[RESTAURANT NAME]</h3>
+                <p>Delicious food made with care.</p>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <p>Accra, Ghana</p>
+                <p>024 000 0000</p>
+                <p>info@restaurant.com</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 [RESTAURANT NAME]. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
